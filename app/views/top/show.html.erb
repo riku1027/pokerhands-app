@@ -1,0 +1,21 @@
+<div id="wrapper">
+  <div id="header">
+    <h1><i class="fa fa-flip-horizontal fa-hand-lizard-o"></i> <%= t('title') %> <i class="fa fa-hand-lizard-o"></i></h1>
+  </div>
+  <div id="contents">
+    <div id="form">
+    <%= form_tag('/check', :method => :put) do %>
+        <!--<p><%= label_tag(:cards, "Cards:") %></p>-->
+        <p><%= text_field_tag(:cards, session[:cards], placeholder:t('placeholder')) %></p>
+        <p><%= submit_tag("Check", id: "check") %></p>
+    <% end %>
+    </div>
+    <% flash.each do |key, value| %>
+        <%= content_tag(:div, simple_format(value), class: "#{key}") %>
+    <% end %>
+    <div id="hand"><p><%= session[:hand_name] %></p></div>
+  </div>
+  <div id="footer">
+    <small>©Copyright <%= Time.now.strftime("%Y")%> porkerhands All Rights Reserved.</small>
+  </div>
+</div>

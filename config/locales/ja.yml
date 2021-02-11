@@ -1,0 +1,13 @@
+ja:
+  title: 'Check a Porker Hand'
+  placeholder: 'S10 H11 D12 C13 H1'
+  hands:
+    hd_strt_flsh: 'ストレートフラッシュ'
+    hd_4_kd: '4カード'
+    hd_fl_hus: 'フルハウス'
+    hd_flsh: 'フラッシュ'
+    hd_strt: 'ストレート'
+    hd_3_kd: '3カード'
+    hd_2_pr: '2ペア'
+    hd_1_pr: '1ペア'
+    hd_hi_cd: 'ハイカード'

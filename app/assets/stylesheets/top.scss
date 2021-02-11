@@ -1,0 +1,89 @@
+$card-width: 600px;
+
+body{
+  background: image-url("porkerhands_bg_1920x1280.jpg") no-repeat center top fixed;
+  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+#wrapper{
+  width: $card-width;
+  margin: 0 auto;
+  color: #323232;
+}
+
+#header{
+  font-size: 1.1rem;
+  margin-top: 20px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#contents{
+
+  height: $card-width * 1 / 1.618;
+  background-color: rgba(240,240,240,0.9);
+  border-radius: 12px;
+
+  #form{
+    text-align: center;
+    font-size: 2.0rem;
+
+    p{
+      margin-bottom: 0;
+    }
+
+    input#cards{
+      margin-top: 48px;
+      text-align: center;
+      font-size: 1.8rem;
+      width: 300px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+
+    input#check{
+      background-color: #8D6E63;
+      color: #FFF;
+      margin-top: 8px;
+      margin-bottom: 6px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      border-radius: 24px;
+      padding: 8px 16px;
+      border: none;
+      width: 240px;
+    }
+
+    input#check:hover { opacity: 0.5; }
+    input#check:active { opacity: 0.3; }
+
+  }
+
+  .alert{
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 10px 20px;
+    width: 500px;
+    background-color: #EF9A9A;
+    color: #222;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+
+  #hand{
+    margin-top: 30px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+}
+
+#footer{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+

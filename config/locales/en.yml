@@ -1,0 +1,13 @@
+en:
+  title: 'Check a Porker Hand'
+  placeholder: 'S10 H11 D12 C13 H1'
+  hands:
+    hd_strt_flsh: 'Straight flush'
+    hd_4_kd: 'Four of a kind'
+    hd_fl_hus: 'Full house'
+    hd_flsh: 'Flush'
+    hd_strt: 'Straight'
+    hd_3_kd: 'Three of a kind'
+    hd_2_pr: 'Two Pair'
+    hd_1_pr: 'One Pair'
+    hd_hi_cd: 'High Card'
